@@ -1,0 +1,67 @@
+    1  cd /cygdrive/c
+    2  d:
+    3  cd d:
+    4  dir
+    5  cd c:
+    6  cd ..
+    7  cd ..
+    8  cd..
+    9  cd ..
+   10  dir
+   11  cd cygdrive
+   12  dir
+   13  cd c:
+   14  ls
+   15  d:
+   16  cd d:
+   17  ls
+   18  mkdir test
+   19  cd test
+   20  echo "Hello Command Line" >> hello_cli.txt
+   21  cat hello_cli.txt 
+   22  D:
+   23  cd D:
+   24  cd projects
+   25  cd helloworld
+   26  ls
+   27  md src
+   28  mkdir src
+   29  help
+   30  help mv 
+   31  help find
+   32  mv
+   33  mv --help
+   34  mv . ./src/
+   35  mv * ./src/
+   36  mv * ./src/ls
+   37  ls
+   38  cd src
+   39  ls
+   40  cd ..
+   41  ls
+   42  pwd
+   43  npm init
+   44  npm install babel-cli -D
+   45  npm install babel-preset-env -D
+   46  touch -help
+   47  touch --help
+   48  touch .babelrc
+   49  npm run build
+   50  npm run build
+   51  ls
+   52  npm run build
+   53  npm run build
+   54  ls
+   55  pwd
+   56  d:
+   57  cd d:
+   58  cd projects
+   59  cd testreactapp
+   60  atom .
+   61  cd ..
+   62  cd ravenous
+   63  npm start
+   64  ls
+   65  npm start
+   66  history
+   67  history >bashhistory.txt
