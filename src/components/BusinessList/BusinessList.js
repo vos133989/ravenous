@@ -8,8 +8,8 @@ export class BusinessList extends React.Component {
     // each element of an array must heve a key prop (not in Codecademy instructions).
     return (
       <div className="BusinessList">
-        {this.props.businesses.map((business, i) => {
-          return  <Business key={`business_${i}`} business={business}/>;
+        {this.props.businesses.map( business => {
+          return  <Business key={business.id} business={business}/>;
         })}
       </div>
     );
